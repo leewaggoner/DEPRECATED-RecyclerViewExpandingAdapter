@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'org.jetbrains.dokka'
-apply plugin: 'maven-publish'
+//apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'org.jetbrains.dokka'
+//apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 29
@@ -29,10 +29,10 @@ android {
 
 }
 
-dokka {
-    outputFormat = 'html'
-    outputDirectory = "$buildDir/javadoc"
-}
+//dokka {
+//    outputFormat = 'html'
+//    outputDirectory = "$buildDir/javadoc"
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -45,4 +45,4 @@ dependencies {
 //    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
-apply from: 'deploy.gradle'
+//apply from: 'deploy.gradle'
