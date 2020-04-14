@@ -1,0 +1,3 @@
+rootProject.name='RecyclerViewExpandingAdapterLib'
+include ':app'
+include ':recyclerviewexpandingadapter'
